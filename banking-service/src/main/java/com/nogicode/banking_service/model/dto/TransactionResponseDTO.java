@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TransactionResponseDTO {
+
     private Long id;
     private AccountResponseDTO targetAccount;
     private BigDecimal amount;

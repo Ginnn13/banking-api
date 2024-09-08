@@ -10,9 +10,11 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AccountResponseDTO {
+
     private Long id;
     private String accountNumber;
     private BigDecimal balance;
     private String ownerName;
     private String ownerEmail;
+
 }
