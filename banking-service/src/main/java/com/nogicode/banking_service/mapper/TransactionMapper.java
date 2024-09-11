@@ -25,7 +25,7 @@ public class TransactionMapper {
         return modelMapper.map(transaction, TransactionResponseDTO.class);
     }
 
-    public List<TransactionResponseDTO> convertToDTO(List<Transaction> transactions) {
+    public List<TransactionResponseDTO> convertToListDTO(List<Transaction> transactions) {
         return transactions.stream()
                 .map(this::convertToDTO)
                 .toList();
